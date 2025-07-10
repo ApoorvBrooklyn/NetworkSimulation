@@ -1,1 +1,8 @@
+# Ignore shared object and object files
+*.so
+*.o
+# Also ignore build artifacts in subdirectories
+**/*.so
+**/*.o
+
 myenv
